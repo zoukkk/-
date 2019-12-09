@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+.min {
+    height: 400px;
+    width: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+    float: left;
+}
+
+.min img {
+    width: 100%;
+}
+
+.cover {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url(./素材/image/hover.png);
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+}
+
+.max {
+    float: left;
+    display: none;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    /*超过区域部分不显示*/
+}
+
+.max .larger {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
